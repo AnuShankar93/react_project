@@ -1,0 +1,8 @@
+import React from 'react';
+
+const layout = (props) => (
+    <React.Fragment>
+        <div>Toolbar,sidedrawer,Backdrop</div>
+        <main>{props.children}</main>
+    </React.Fragment>
+);
